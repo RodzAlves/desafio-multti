@@ -1,7 +1,14 @@
 import React from 'react';
+import GlobalStyles from './styles/global';
+import Dashboard from './pages/Dashboard';
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <Dashboard />
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
